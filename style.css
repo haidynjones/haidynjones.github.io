@@ -1,0 +1,67 @@
+
+
+a.pseudo:visited {
+    color:rgb(92, 92, 197)
+}
+
+a.pseudo:hover {
+    color:rgb(255, 0, 234);
+}
+
+a.pseudo:active {
+    color:rgb(127, 255, 133);
+}
+
+.box {
+    background-color:lightgrey;
+    width: 400px;
+    border:20px; solid pink;
+    padding:
+    margin:
+}
+
+/*
+div {
+    background: yellowgreen;
+}
+
+span {
+    background: yellowgreen;
+}
+/*
+
+
+
+/*
+<style>
+    body {
+        background: rgb(196, 255, 250);
+    }
+
+    .example {
+        color: red;
+    }
+
+    .example2 {
+        background: pink;
+    }
+
+    #container2 {
+        font-size: 22px;
+    }
+
+    p {
+        color: red;
+        font-size: 22px;
+        text-align: right;
+    }
+
+    section a {
+        color: green;
+    }
+
+    section > a {
+    color: green;
+    }
+</style>
+/*
