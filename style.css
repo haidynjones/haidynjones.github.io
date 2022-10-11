@@ -1,4 +1,6 @@
-
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 a.pseudo:visited {
     color:rgb(92, 92, 197)
@@ -12,15 +14,175 @@ a.pseudo:active {
     color:rgb(127, 255, 133);
 }
 
+
+
 .box {
-    background-color:lightgrey;
+    background-color:rgb(255, 255, 255);
     width: 400px;
-    border:20px; solid pink;
-    padding:
-    margin:
+    border: 20px solid rgb(0, 0, 0);
+    padding: 5px;
+    margin: 5px;
+ 
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+
+
 }
 
-/*
+p {
+    background-color: rgba(255, 202, 235, 0.701);
+    color: rgb(0, 0, 0);
+    margin: 0px 50px 0px 50px;
+    padding: 10px;
+    border-style: ridge;
+    border-color: rgb(92, 92, 197);
+}
+
+p2 {
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    color:rgb(92, 92, 197);
+}
+
+form {
+    width: 10%;
+    padding: 10px;
+}
+
+label {
+    color:rgba(255, 73, 185, 0.701);
+}
+
+button {
+    background-color:rgba(255, 73, 185, 0.701);
+    border-color: rgb(92, 92, 197);
+    color:rgb(255, 255, 255);
+    padding: 5px 8px;
+}
+
+img {
+    padding: 5px;
+    width: 170px;
+}
+
+#corners {
+    border: 2px solid rgb(92, 92, 197); 
+    border-radius: 200px;
+}
+
+#shadow {
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 0px;
+    margin-left: 0px;
+    -webkit-box-reflect: right;
+}
+
+ #gallery {
+      margin: 2px;
+      border: 1px solid;
+      float: right;
+      width: 160px;
+    }
+    
+ #gallery:hover {
+      border: 1px solid rgb(255, 0, 166);
+    }
+    
+ #gallery img {
+      width: 150px;
+      height: 90%;
+    }
+    
+ #desc {
+      padding: 20px;
+      text-align: left;
+    }
+
+
+
+#container h3 {
+    background-color:rgb(127, 255, 133);
+}
+
+
+
+#grad {
+    background-image: linear-gradient(to right, rgba(255, 202, 235, 0.701), rgb(92, 92, 197));
+}
+
+
+
+a:link {
+    color: #ff00d9;
+  }
+  
+  a:visited {
+    color: #d000ff;
+  }
+  
+  a:hover {
+    color: #00f2ff;
+  }
+  
+  a:active {
+    color: #0000FF;
+  }
+
+
+
+.element {
+    width: 700px;
+    height: 10px;
+    padding: 0px 0px 20px 0px;
+    margin: 10px;
+    border: 50px;
+}
+
+
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
+
+div {
+    width: 100px;
+    height: 90px;
+    position: relative;
+    background-color: rgb(0, 255, 213);
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 4;
+    animation-direction: alternate-reverse;
+  }
+
+  #div1 {animation-timing-function: linear;}
+
+#sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+}
+
+div.absolute {
+    position: absolute;
+    top: 100px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+
+/*  
+
 div {
     background: yellowgreen;
 }
@@ -28,11 +190,43 @@ div {
 span {
     background: yellowgreen;
 }
+
+div.position {
+    position: absolute;
+    left: 500px;
+    right: 100px;
+    top: 800px;
+}
+
+nav.sticky {
+    position: sticky;
+    top: 0;
+    padding: 3px;
+    background-color: greenyellow;
+    border: 1px solid grey;
+}
+
+
+.pseudo {
+    text-decoration: none;
+}
+
+.button1 {
+    background-color: green;
+    color: white;
+    padding: 3px 5px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
 /*
 
-
-
-/*
 <style>
     body {
         background: rgb(196, 255, 250);
