@@ -2,18 +2,321 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
+a.pseudo:link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
 a.pseudo:visited {
-    color:rgb(92, 92, 197)
+    color: rgb(255, 255, 255);
+    text-decoration: none;
 }
 
 a.pseudo:hover {
-    color:rgb(255, 0, 234);
+    color: rgb(235, 57, 90);
+    text-decoration: none;
 }
 
 a.pseudo:active {
-    color:rgb(127, 255, 133);
+    color:rgb(128, 51, 51);
+    text-decoration: none;
+
+
 }
 
+.navigation {
+    text-align:center;
+    padding: 20px;
+    font-size: 20px;
+    background-color:rgb(254, 187, 199);
+    overflow: hidden;
+    border-style: solid;
+    border-color: rgb(254, 170, 185);
+    word-spacing: 30px;
+}
+
+#navigation {
+    text-align:center;
+    padding: 20px;
+    font-size: 20px;
+    background-color:rgb(254, 187, 199);
+    overflow: hidden;
+    border-style: solid;
+    border-color: rgb(254, 170, 185);
+}
+
+#space {
+    word-spacing: 0px;
+}
+
+.box {
+    text-align: center;
+    text-size-adjust: none;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(252, 126, 149);
+    margin: 10px;
+}
+
+
+ {
+    text-align:center;
+}
+
+
+.background {
+    background-color: rgb(253, 237, 236);
+}
+#shadow {
+
+    width: 1000px;
+    margin: -40px;
+  margin-top: -16px;
+  margin-bottom: 10px;
+  padding: 0px;
+  max-width: 100%;
+  height: auto;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  filter: opacity(60%);
+}
+
+.hometitle {
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 100px;
+  color: white;
+}
+
+.container {
+    position: relative;
+  }
+
+.square {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  
+}
+
+.me {
+    display: block;
+    margin-left: 50px;
+    margin-right: auto;
+    width: 40%;
+    float: left;
+}
+
+#aboutp {
+    float:right;
+}
+
+.abme {
+    color: black;
+    position: absolute;
+    left: 50%; 
+    font-size: 18.5px;
+    background-color:rgb(253, 237, 236);
+    border-top: 60px solid  rgb(254, 170, 185);
+    border-bottom: 60px solid  rgb(254, 170, 185);
+    border-right: 60px solid  rgb(254, 170, 185);
+    border-left: 60px solid  rgb(254, 170, 185);
+    margin-left: 0px;
+    text-indent: 40px;
+    padding: 60px;
+}
+
+.wpsite {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+#cute {
+    color: rgb(229, 145, 160);
+    font-size: 30px;
+    position:
+}
+
+#down {
+margin-bottom:100px;
+}
+
+.heres {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+   /* margin-left: 40px; */
+    
+}
+
+
+.here {
+    color: rgb(229, 145, 160);;
+    text-decoration: none;
+    margin-left: 0px;
+    
+}
+
+a.here:link {
+    color: rgb(229, 145, 160);
+    text-decoration: underline;
+}
+
+a.here:visited{
+    color: rgb(229, 145, 160);
+    text-decoration: none;
+}
+
+a.here:hover{
+    color: rgb(235, 57, 90);
+    text-decoration: none;
+}
+
+a.here:active{
+    color:rgb(128, 51, 51);
+    text-decoration: none;
+}
+
+
+h3 {
+   /* background-color: white; */
+    text-align: center;
+}
+
+#para {
+  
+    position: absolute;
+    top: 103%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    color: black;
+    padding: 60px;
+    text-indent: 40px;
+}
+
+#intro {
+   
+    position: absolute;
+    top: 127%;
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    font-size: 25px;
+    color: black;
+padding: 60px;
+text-indent: 40px;
+}
+
+
+#w3 {
+  
+    position: absolute;
+    top: 150%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    color: black;
+    padding: 60px;
+    text-indent: 40px;
+}
+
+.whitebox {
+    color: black;
+    position: relative;
+   /* left: 50%; */
+    font-size: 18.5px;
+    background-color:rgb(253, 237, 236);
+    border-top: 60px solid  rgb(254, 170, 185);
+    border-bottom: 60px solid  rgb(254, 170, 185);
+    border-right: 60px solid  rgb(254, 170, 185);
+    border-left: 60px solid  rgb(254, 170, 185);
+    margin-left: 0px;
+}
+
+
+.everyday {
+    margin-top: 600px;
+    text-align: center;
+}
+
+.reflection {
+    text-indent: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    font-size: 20px;
+}
+
+
+.gallery {
+
+    top: 50%;
+    left: 50%;
+  
+}
+
+
+.footer {
+    background-color: rgb(254, 170, 185);
+    padding: 50px;
+    color:rgb(253, 237, 236);
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.box {
+    text-align: center;
+    height: 40px;
+    width: 100%;
+    padding: 30px;
+    margin-top: 50px;
+    Background-color: rgb(255, 229, 235);
+    animation-name: header;
+    animation-duration: 4s;
+}
+/*
 .box {
     background-color:rgb(255, 255, 255);
     width: 400px;
@@ -27,6 +330,7 @@ a.pseudo:active {
     padding: 5px;
 }
 
+
 p {
     background-color: rgba(255, 202, 235, 0.701);
     color: rgb(0, 0, 0);
@@ -36,14 +340,15 @@ p {
     border-color: rgb(92, 92, 197);
 }
 
+
 p2 {
     padding: 20px;
 }
-
+*/
 h1 {
     text-align: center;
 }
-
+/*
 ul {
     color:rgb(92, 92, 197);
 }
@@ -56,7 +361,7 @@ form {
 label {
     color:rgba(255, 73, 185, 0.701);
 }
-
+*/
 button {
     background-color:rgba(255, 73, 185, 0.701);
     border-color: rgb(92, 92, 197);
@@ -68,12 +373,13 @@ img {
     padding: 5px;
     width: 170px;
 }
-
+/*
 #corners {
     border: 2px solid rgb(92, 92, 197); 
     border-radius: 200px;
 }
-
+*/
+/*
 #shadow {
 
     margin-top: 20px;
@@ -82,7 +388,7 @@ img {
     margin-left: 0px;
     -webkit-box-reflect: right;
 }
-
+*/
  #gallery {
       margin: 2px;
       border: 1px solid;
@@ -110,12 +416,11 @@ img {
     background-color:rgb(127, 255, 133);
 }
 
-
-
+/*
 #grad {
     background-image: linear-gradient(to right, rgba(255, 202, 235, 0.701), rgb(92, 92, 197));
 }
-
+*/
 
 
 a:link {
@@ -144,7 +449,7 @@ a:link {
     border: 50px;
 }
 
-
+/*
 @keyframes example {
     from {background-color: red;}
     to {background-color: yellow;}
@@ -162,7 +467,7 @@ div {
   }
 
   #div1 {animation-timing-function: linear;}
-
+*/
 #sticky {
     position: -webkit-sticky;
     position: sticky;
